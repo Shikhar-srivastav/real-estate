@@ -1,11 +1,18 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const cors = require("cors");
 const userRouter = require("./routers/userRouter");
 const propertyController = require("./routers/propertyController")
 const port = process.env.PORT || 5000;
 const app = express();
 
 app.use(express.json());
+
+app.use(
+  cors({
+    origin: "https://real-estate-wine-ten.vercel.app/",
+  })
+);
 
 app.use("/api/user", userRouter);
 app.use("/api/property", propertyController);
