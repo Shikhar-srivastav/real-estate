@@ -6,7 +6,7 @@ import { SignInContext } from '../../context/SignInContext';
 import { imagefrombuffer } from "imagefrombuffer"; //first import 
 import { Outlet, Link } from "react-router-dom";
 import { Alert, Button, Slide, Snackbar } from '@mui/material';
-import axios from 'axios';
+import axios from '../../config/axios';
 import { TokenContext } from '../../context/TokenContext';
 
 const Nav = (props) => {

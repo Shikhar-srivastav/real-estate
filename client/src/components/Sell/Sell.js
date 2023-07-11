@@ -1,5 +1,5 @@
 import React from 'react'
-import axios from 'axios';
+import axios from '../../config/axios';
 import { useContext, useState } from 'react';
 import { TokenContext } from '../../context/TokenContext';
 import './sell.css'

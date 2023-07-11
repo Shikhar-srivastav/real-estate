@@ -4,7 +4,7 @@ import SideList from "../../../components/Lists/SideList";
 // import buildingData from ".././../../assets/dummyData/buildingData";
 import data from "../../../assets/dummyData/data";
 // import GeocodingExample from "../../../components/GeocodingExample";
-import axios from "axios";
+import axios from "../../../config/axios";
 import CustomMap from "../../../components/Maps/CustomMap";
 import { Backdrop } from "@mui/material";
 import PropertyDetail from "../property/PropertyDetail";

@@ -44,7 +44,7 @@
 
 
 import React, { useState } from 'react';
-import axios from 'axios';
+import axios from '../../config/axios';
 
 const GeocodingForm = () => {
     const [address, setAddress] = useState('');

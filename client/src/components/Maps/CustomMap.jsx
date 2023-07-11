@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState, data } from "react";
 import "./customMap.css";
-import axios from "axios";
+import axios from "../../config/axios";
 import buildingData from "../../assets/dummyData/buildingData";
 import {
   MapContainer,

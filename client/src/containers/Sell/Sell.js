@@ -2,6 +2,7 @@ import React from 'react'
 import './sell.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGreaterThan } from '@fortawesome/free-solid-svg-icons';
+
 const Sell = () => {
   return (
     <section className='sell-container'>

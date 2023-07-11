@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import './signIn.css'
-import axios from 'axios';
+import axios from '../../config/axios';
 import Cookie from 'js-cookie';
 import { SignInContext } from '../../context/SignInContext';
 import { TokenContext } from '../../context/TokenContext';

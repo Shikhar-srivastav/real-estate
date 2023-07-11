@@ -13,7 +13,7 @@ import PropertyDetail from "./property/PropertyDetail";
 import { Button, Menu, MenuItem } from "@mui/material";
 import { TokenContext } from "../../context/TokenContext";
 import { SignInContext } from "../../context/SignInContext";
-import axios from "axios";
+import axios from "../../config/axios";
 
 const Buy = () => {
   const { token } = useContext(TokenContext);

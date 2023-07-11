@@ -8,7 +8,7 @@ import image from "../../assets/images/landingBgAlt.png";
 import data from "../../assets/dummyData/data";
 import CustomMap from "../../components/Maps/CustomMap";
 import Gallery from "../buying/gallery/Gallery";
-import axios from "axios";
+import axios from "../../config/axios";
 import { TokenContext } from "../../context/TokenContext";
 
 // TODO handle search text
