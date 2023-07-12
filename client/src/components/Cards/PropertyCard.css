@@ -9,11 +9,12 @@
   transition: all 0.2s ease;
   border-radius: 4px;
   margin: 10px 0px;
+  background-color: var(--color-light);
 }
 .card-container:hover {
   box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, 0.55);
 }
-.card {
+.card_body {
   display: flex;
   flex-direction: column;
   width: 250px;
@@ -42,7 +43,7 @@
   width: 250px;
   padding: 8px 16px;
 }
-.card-text {
+.card_text {
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -52,7 +53,7 @@
   padding: 0px 8px;
 }
 
-.card-text-heading {
+.card_text-heading {
   color: var(--color-dark);
   font-size: 22px;
   font-family: var(--font-family);
@@ -60,7 +61,7 @@
   letter-spacing: 0.5px;
 }
 
-.card-text-address {
+.card_text-address {
   color: var(--color-dark-subtle);
   font-size: 18px;
   font-family: var(--font-family);

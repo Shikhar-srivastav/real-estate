@@ -1,4 +1,4 @@
-.sell-container {
+.sell-container{
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -7,8 +7,7 @@
     width: 100%;
     font-family: var(--font-family);
 }
-
-.sell {
+.sell{
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -16,34 +15,29 @@
     margin-top: 25px;
     color: var(--color-dark);
 }
-
-.sell-form {
+.sell-form{
     display: flex;
     flex-direction: column;
     align-items: start;
     width: 60%;
     position: relative;
 }
-
-.form-details {
+.form-details{
     margin-top: 15px;
     display: flex !important;
     flex-direction: row !important;
 }
-
-.sell-address {
+.sell-address{
     display: flex !important;
     flex-direction: column !important;
 }
-
-.sell-details {
+.sell-details{
     position: absolute;
-    left: 50%;
+    left:50%;
     display: flex !important;
     flex-direction: column !important;
 }
-
-.sell-image {
+.sell-image{
     margin: 0;
     background-image: url('../../assets/images/pexels-pixabay-271795.jpg');
     background-repeat: no-repeat;
@@ -52,31 +46,26 @@
     border-radius: 8px;
     width: 40%;
 }
-
-input,
-textarea {
+input,textarea{
     width: 250px;
     margin: 10px 0px;
     border-radius: 10px !important;
     border: solid 2px black;
 }
-
-textarea {
+textarea{
     background-color: var(--color-light);
     text-align: center;
     padding: auto 0px;
 }
-
-.form-submit {
+.form-submit{
     position: absolute;
-    border-radius: 15px !important;
+    border-radius:15px !important;
     color: var(--color-light);
     background-color: var(--color-dark);
     left: 35.5rem;
     top: 485px;
     max-height: 37px;
 }
-
-.submit-icon {
-    margin-left: 11px;
+.submit-icon{
+    margin-left:11px ;
 }
