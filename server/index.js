@@ -8,9 +8,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use(cors({
-    origin: "https://real-estate-wine-ten.vercel.app",
-}));
+app.use(cors());
 
 app.use("/api/user", userRouter);
 app.use("/api/property", propertyController);
